@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #
 
   s.source       = { :git => "https://github.com/CHENMOZHI661671/CCAnimationFoundation.git", :commit => "6388333", :tag => s.version }
-
+  s.requires_arc = true
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
