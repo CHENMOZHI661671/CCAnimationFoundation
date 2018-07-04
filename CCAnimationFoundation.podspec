@@ -17,15 +17,15 @@ Pod::Spec.new do |s|
 
   s.name         = "CCAnimationFoundation"
   s.version      = "0.0.1"
-  s.summary      = "A short description of CCAnimationFoundation."
+  s.summary      = "CCAnimationFoundation is an animation tool"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
-                   DESC
+  #s.description  = <<-DESC
+   #                DESC
 
   s.homepage     = "https://github.com/CHENMOZHI661671/CCAnimationFoundation"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -132,6 +132,4 @@ Pod::Spec.new do |s|
   # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  s.dependency = 'AFNetworking' , 'SDWebImage'
-
 end
