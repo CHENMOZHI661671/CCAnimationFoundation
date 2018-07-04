@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "CCAnimationFoundation"
-  s.version      = "master"
+  s.version      = "0.0.1"
   s.summary      = "CCAnimationFoundation is an animation tool"
 
   # This description is used to generate tags and improve search results.
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/CHENMOZHI661671/CCAnimationFoundation.git", :commit => "97c0b8a", :tag => s.version }
+  s.source       = { :git => "https://github.com/CHENMOZHI661671/CCAnimationFoundation.git", :tag => s.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
